@@ -1,0 +1,25 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.page-content {
+  padding: 32px;
+
+  h2 {
+    margin: 0 0 8px;
+    color: #111827;
+    font-size: 24px;
+  }
+
+  p {
+    margin: 0;
+    color: #6b7280;
+  }
+}
